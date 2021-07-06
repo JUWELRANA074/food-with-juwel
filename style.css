@@ -1,0 +1,59 @@
+.full-page{
+    margin: 0px 100px 100px 100px;
+    border: 10px silid greenyellow;
+    width: 90%;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    text-align: right;
+}
+.head h2 a{
+    text-decoration: none;
+    background-color: lawngreen;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.intro-section{
+ display: flex;
+ background-image: url(images/pic-bg2.png);
+ background-repeat: no-repeat;
+ padding: 30px;
+}
+.intro{
+ width: 90%;
+ margin-top: 50px;
+}
+.intro h1{
+    font-size: 45px;
+    margin: 0%;
+}
+.intro p{
+    font-size: 20px;
+}
+#color-text{
+    color: rgb(201, 204, 43);
+}
+.intro-text img{
+  width: 80%;
+  margin-left: 150px;
+
+}
+.order-btn{
+    margin: 50px 0px 10px 50px;
+}
+.order-btn a{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background: linear-gradient(orange,red);
+    color: white;
+    font-size: 20px;
+}
+
+               
+

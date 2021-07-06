@@ -6,23 +6,25 @@ margin: 15px 150px;
     width: 100%;
     color: gray;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid black;
+    border: 1px  solid gray;
     border-radius: 3px;
-    box-shadow: 0px 1px 2px 2px black;
-
+    box-shadow: 0px 1px 2px 2px gray;
 }
 .head{
     text-align: right;
+
 }
 .head h2 a{
     text-decoration: none;
     background-color: lawngreen;
     color: white;
     padding: 10px 30px;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 5px;
     margin-right: 10px;
     font-weight: 700;
+    background-color:orange;
+
 }
 
 .intro-section{
@@ -44,7 +46,7 @@ margin: 15px 150px;
     font-size: 20px;
 }
 #color-text{
-    color: rgb(201, 204, 43);
+    color: orange;
 }
 .intro-text img{
   width: 100%;
@@ -97,6 +99,94 @@ margin-bottom: 70px;
     color: white;
     font-size: 20px;
     margin-top: 50px;
+}
+
+.recipe-section{
+    padding:0px 30px;
+    background-image: url(images/pic-bg2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.recipe-text{
+text-align:center;
+width: 70%;
+margin: 0% auto;
+margin-left: 200px;
+}
+.recipe-text h1{
+font-size: 30px;
+margin: 0%;
+padding: 0%;
+}
+.recipe-text p{
+
+}
+.recipe-unit{
+display: flex;
+
+}
+.one-of-unit{
+    width: 80%;
+    margin:0px 5px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin-left: 40px;
+    box-shadow: 0px 1px 2px 2px rgb(223, 177, 177);
+    
+}
+.unit-text{
+    text-align: left;
+    padding: 0px 30px;
+}
+.unit-img{
+    padding: 30px;
+text-align: center;
+}
+.unit-img img{
+width: 100%;
+border-radius: 5px;
+}
+
+.media-section{
+    padding:0px 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.media{
+ display: flex;
+ margin: 20px 30px;
+border: 1px solid grey;
+padding: 60px 10px;
+border-radius: 10px;
+
+}
+.media-unit{
+width: 33%;
+}
+.media-unit h1{
+margin: 0px;
+padding: opx;
+font-size: 35px;
+font-weight: bold;
+color: black;
+
+}
+.media-unit h3{
+    margin: 0px;
+    padding: opx;
+}
+
+.footer-section{
+margin: 150px 0px 0px 0px;
+background-color: black;
+}
+.footer-text{
+    font-family:Arial, Helvetica, sans-serif;
+ padding: 70px 0px;
+ text-align: center;
+}
+#footer-color{
+ color: orange;
 }
 
 
